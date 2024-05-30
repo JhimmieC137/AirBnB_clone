@@ -1,0 +1,11 @@
+body footer {
+    background: #ffffff;
+    height: 60px;
+    border-top: solid 1px #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed; 
+    bottom: 0;
+    width: 100%;
+}
