@@ -6,13 +6,13 @@ body header {
     display: flex;
     justify-content: flex-start;
     align-items: center; 
-    position:fixed;
+    position: static;
     top: 0;
     width: 100%;
-    padding: 0 0 0 20px;
 }
 
 body header .logo {
+    padding: 0 0 0 20px;
     height: inherit;
     width: inherit;
     background-repeat: no-repeat;
