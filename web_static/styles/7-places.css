@@ -1,0 +1,44 @@
+.places {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.places .places-heading  {
+    width: 100%;
+    text-align: left;
+}
+
+.places .places-heading h1{
+    font-size: 30px;
+}
+
+.places .places-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.places .places-list .first-articles ul,
+.places .places-list .second-articles ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.places .places-list .first-articles ul li,
+.places .places-list .second-articles ul li{
+    list-style: none;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #FF5A5F;
+}
+
